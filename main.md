@@ -885,15 +885,30 @@ ul {
 <!-- backgroundColor: #c0c0c0 -->
 # Marp 기초 문법 (1/2)
 
+<style scoped>
+ul {
+	font-size: 25px;
+}
+</style>
+
+- 오리지널 마크다운 문법을 지원함(Mermaid 등 익스텐션은 미지원)
+- themes를 통해 css 스타일 변경 가능
+- itemize:
+	- '*' 사용시 한 페이지당 하나씩 출력됨. 한번에 출력하려면 '-'
 - Emoji: :satellite:
 - Strikethrough: ~~strike~~
-- Code: `#include <iostream>`
 - Equation: $a = \frac{b}{c}$
+- Code: `#include <iostream>`
+- Code blocks:
+```c++
+#include <iostream>
+
+void main;
+```
 
 ---
 
 # Marp 기초 문법 (2/2)
-
 - images:
 ![w:300 center](assets/img_06.jpg)
 
