@@ -45,7 +45,7 @@ h1 {
 /* add logo to footer */
 section::before {
   display: block;
-  content: url('image/CI_ENG_black.svg');
+  content: url('assets/CI_ENG_black.svg');
   width: 150px;
   height: auto;
 
