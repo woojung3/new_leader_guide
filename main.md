@@ -7,7 +7,7 @@ header: AutoCrypt V2X.platform 그룹 | 리더 가이드
 math: katex
 ---
 
-![bg left:33%](image/img_02.jpg)
+![bg left:33%](assets/img_02.jpg)
 
 # AutoCrypt V2X.platform 그룹<br> 리더 가이드
 
@@ -110,7 +110,7 @@ ul { columns: 2; }
 
 ---
 
-![bg w:600 left:50%](image/desire_5_stage.png)
+![bg w:600 left:50%](assets/desire_5_stage.png)
 
 # :warning:	살아남아야 한다면
 
@@ -132,7 +132,7 @@ ul { columns: 2; }
 
 # :brain: 손으로 만든 뇌 모델 (1/2)
 
-![bg w:500 left:40%](image/hand_model_of_brain.jpg)
+![bg w:500 left:40%](assets/hand_model_of_brain.jpg)
 
 들어가기 전에, 뇌의 작동방식에 대해 간단히 이해해 보자. 각 부분의 역할은 다음과 같다:
 - 변연계:
@@ -321,7 +321,7 @@ ul { columns: 2; }
 ---
 
 # 나의 다음
-![bg w:500 left:40%](image/radical_candor_self_centered.png)
+![bg w:500 left:40%](assets/radical_candor_self_centered.png)
 
 중심을 지키고 바로 섰다면 이제 다른 사람을 도울 순간이다. 최고의 자아를 일터로 데려왔다면, 이제 팀이 성과를 올리게 도와야 한다.
 
@@ -351,7 +351,7 @@ ul { columns: 2; }
 ---
 
 # 경계를 존중하기 - 가스라이팅
-![bg w:350 left:37%](image/i_want_this.png)
+![bg w:350 left:37%](assets/i_want_this.png)
 
 **다 너를 생각해서 하는 말이야**
 
@@ -373,7 +373,7 @@ ul { columns: 2; }
 
 # 피드백 유형 사분면 (1/2)
 
-![bg w:700 left:55%](image/radical_candor.png)
+![bg w:700 left:55%](assets/radical_candor.png)
 
 구글과 애플 등을 거쳐 실리콘밸리 CEO들의 리더십 코치 역할을 하고 있는 킴 스콧은 그의 저서 "실리콘밸리의 팀장들[1]"에서 상사와 부하의 소통을 네 가지 유형으로 나눴다.
 
@@ -423,7 +423,7 @@ ul { columns: 2; }
 
 # 심리적 안전감 (2/2)
 
-![w:700 center](image/psychological_safety.png)
+![w:700 center](assets/psychological_safety.png)
 
 동기 부여는 심리적 안전감과 떼어놓을 수 없다. 심리적 안전감 없이 동기 부여를 시도하면 개인을 불안하게 만들 뿐이다.
 
@@ -463,7 +463,7 @@ ul { columns: 2; }
 
 # 고정형 사고방식 vs 성장형 사고방식[1]
 
-![w:600 center](image/tedx_growth_mindset.png)
+![w:600 center](assets/tedx_growth_mindset.png)
 
 사고방식은 리더와 팀원 모두에게 중요하다. 우리는 **학습을 통해 성장할 수 있다**. 자신과 구성원이 성장형 사고방식을 가질 수 있도록 꾸준히 노력하자.
 
@@ -485,7 +485,7 @@ ul { columns: 2; }
 
 인지지능(Cognitive Intelligence, IQ)은 새로운 상황을 인지하거나, 주어진 문제를 이해하거나, 지식을 현재 상황에 적용하는 능력이다. 추상적 사고력과 추론력에 영향을 받는다.
 
-![w:1000 center](image/ei.png)
+![w:1000 center](assets/ei.png)
 
 감정지능은 복잡한 업무를 수행하는데 필요하며, 특히 리더 업무에 필수적이다.
 
@@ -521,7 +521,7 @@ ul { columns: 2; }
 
 # 타인과의 관계 (2/3)
 
-![w:1200 center](image/ei_others.png)
+![w:1200 center](assets/ei_others.png)
 
 ---
 
@@ -565,7 +565,7 @@ ul { columns: 2; }
 
 # 코칭의 연속성
 
-![w:1000 center](image/coaching_continuum.png)
+![w:1000 center](assets/coaching_continuum.png)
 
 ---
 
@@ -628,7 +628,7 @@ ul { columns: 2; }
 
 # GROW 모델[1]
 
-![bg w:450 left:37%](image/grow.png)
+![bg w:450 left:37%](assets/grow.png)
 
 GROW 모델은 간단하게 사용할 수 있는 코칭 도구이다. 코칭 대상자가 GROW 모델을 이해하고 있을 필요는 없다.
 GROW 모델의 템플릿 등도 준비하지 않아도 좋다. 코칭 시에 다음 네 가지에 주의를 기울이자:
@@ -894,8 +894,8 @@ ul {
 
 # Marp 기초 문법 (2/2)
 
-* Images:
-![w:300 center](image/img_06.jpg)
+* assetss:
+![w:300 center](assets/img_06.jpg)
 
 * Tables:
 
