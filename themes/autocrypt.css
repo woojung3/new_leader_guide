@@ -1,0 +1,61 @@
+/* @theme autocrypt */
+
+@import 'default';
+
+/* add center property */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+/* table setting */
+table, tr, td, th {
+  /* Override contextual styling */
+  border: 0 !important;
+  background: transparent !important;
+}
+
+th {
+  /* Override contextual styling */
+  border: 0 !important;
+  background: #9e9e9e !important;
+}
+
+tr, td {
+  /* Override contextual styling */
+  border: 0 !important;
+  background: #e6e6e6 !important;
+}
+
+/* move title to the top */
+section { justify-content: start; }
+
+/* modify blockquote to footnote */
+blockquote {
+    border-top: 0.1em solid #555;
+    font-size: 60%;
+    margin-top: auto;
+}
+
+/* add horizontal line to title */
+h1 {
+  border-bottom: 1px solid #8aa6da;
+}
+
+/* add logo to footer */
+section::before {
+  display: block;
+  content: url('image/CI_ENG_black.svg');
+  width: 150px;
+  height: auto;
+
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+/* move page number to left */
+section::after {
+  right: auto; /* Unset default placing inherited from the built-in theme */
+  left: 30px;
+}
