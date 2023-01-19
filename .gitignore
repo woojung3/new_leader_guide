@@ -252,3 +252,4 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/node,windows,macos,linux,sublimetext,emacs,vim,visualstudiocode
 
 main.html
+main.pdf

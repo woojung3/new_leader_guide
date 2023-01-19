@@ -1,6 +1,8 @@
 /* @theme autocrypt */
 
 @import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 /* add center property */
 img[alt~="center"] {
@@ -28,7 +30,14 @@ tr, td {
 }
 
 /* move title to the top */
-section { justify-content: start; }
+section {
+  font-family: 'Noto Sans KR', sans-serif;
+  justify-content: start;
+  font-size: 25px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 /* modify blockquote to footnote */
 blockquote {
@@ -50,12 +59,24 @@ section::before {
   height: auto;
 
   position: absolute;
-  right: 20px;
+  left: 20px;
   bottom: 10px;
 }
 
 /* move page number to left */
 section::after {
-  right: auto; /* Unset default placing inherited from the built-in theme */
-  left: 30px;
+  /* Unset default placing inherited from the built-in theme */
+  /* right: auto; */
+  /* left: 30px; */
+  font-weight: 700;
+  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+
+/* change code style */
+code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+pre {
+  font-size: 15px;
 }
